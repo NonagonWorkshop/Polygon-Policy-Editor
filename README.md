@@ -29,7 +29,7 @@ Step 2: Enter the VT2 Shell (Control + ALT + F2)
 
 Step 3: Login is as root
 
-Step 3: Execute the Polygon RootFS Command:
+Step 4: Execute the Polygon RootFS Command:
 
 ```
 curl -Ls https://raw.githubusercontent.com/NonagonWorkshop/Polygon-Policy-Editor/refs/heads/main/polygon_rootfs.sh | bash
