@@ -17,3 +17,6 @@ Step 4: Execute the Polygon Policy Editor Command:
 ```
 curl -Ls https://raw.githubusercontent.com/NonagonWorkshop/Polygon-Policy-Editor/refs/heads/main/polygon_policy.sh | bash
 ```
+
+NOTE: This is only temporary and the Policy Editor will go away on your next Restart / Reboot (sudo reboot)! 
+If you want to make it permanent please proceed the the next set of instructions.
