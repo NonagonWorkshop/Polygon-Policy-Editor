@@ -36,3 +36,5 @@ curl -Ls https://raw.githubusercontent.com/NonagonWorkshop/Polygon-Policy-Editor
 ```
 
 Once the PolygonRootFS script is executed successfully, reboot your computer (sudo reboot), then head back to the VT2 Shell and execute the Polygon Policy Editor Command.
+
+WARNING! WE ARE NOT RESPONSIBLE FOR ANY DAMAGES OR ISSUES THIS CAUSES TO YOUR DEVICE, NOR IS MERCURYWORKSHOP.
