@@ -22,7 +22,7 @@ echo ""
 echo "=========================================="
 echo ""
 
-# Build extension force-install shitty list
+# Build extension force-install array inline
 EXT_LIST='"haldlgldplgnggkjaafhelgiaglafanh;https://goguardian.com/ext/m.xml","jjfeehgdeghiknkilcildnjofkcndjcm;https://goguardian.com/licenses/update.php","mloajfnmjckfjbeeofcdaecbelnblden;https://clients2.google.com/service/update2/crx","ifajfiofeifbbhbionejdliodenmecna;https://clients2.google.com/service/update2/crx","inoeonmfapjbbkmdafoankkfajkcphgd;https://clients2.google.com/service/update2/crx"'
 
 # Create policy directory if needed
@@ -60,6 +60,7 @@ cat > /etc/opt/chrome/policies/managed/polygon_policy.json << EOF
   "DeviceAllowNewUsers": true,
   "DevicePowerAdaptiveChargingEnabled": true,
   "DeviceGuestModeEnabled": true,
+  "BrowserGuestModeEnabled": true,
   "DeviceUnaffiliatedCrostiniAllowed": true,
   "VirtualMachinesAllowed": true,
   "CrostiniAllowed": true,
@@ -111,5 +112,5 @@ echo ""
 echo "User policies modified (50+ policies changed)"
 echo ""
 echo "Done! Policies have been applied."
-echo "Go to chrome://policy and refresh the policies"
+echo "Restart Chrome UI manually with: restart ui"
 echo ""
