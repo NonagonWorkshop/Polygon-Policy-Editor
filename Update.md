@@ -16,6 +16,9 @@ Step 1: Remount Root as Read/Write
 sudo mount -o remount
 ```
 
+Step 2: Execute the following RootFS disabling commands:
+
+```
 sudo /usr/share/vboot/bin/make_dev_ssd.sh --remove_rootfs_verification --partitions 2 --force
 ```
 
