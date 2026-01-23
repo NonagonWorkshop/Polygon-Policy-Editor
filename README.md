@@ -1,4 +1,4 @@
-![Polygon Banner](./polygon_banner.svg)
+![OctagonBanner](./OctagonBanner.svg)
 # Polygon Policy Editor
 
 Welcome to Polygon Policy Editor!
