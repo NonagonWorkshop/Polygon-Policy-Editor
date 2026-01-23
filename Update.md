@@ -13,7 +13,7 @@ The Octagon RootFS Disabler will execute a command that should disable RootFS on
 Step 1: Remount Root as Read/Write
 
 ```
-sudo mount -o remount
+sudo mount -o remount,rw /
 ```
 
 Step 2: Execute the following RootFS disabling commands:
