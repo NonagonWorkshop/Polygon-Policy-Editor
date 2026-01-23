@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #################################################################################
-# Polygon Policy Editor
+# Octagon Policy Editor
 # Heavily based off of Pollen Policy Editor and Pentagon Policy Editor
 # https://github.com/MercuryWorkshop/Pollen/
 # https://github.com/NonagonWorkshop/Pentagon-Policy-Editor/
